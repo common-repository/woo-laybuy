@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetector">
+    <phpmd_settings>
+      <MessDetectorConfiguration tool_path="/usr/local/bin/phpmd" />
+    </phpmd_settings>
+  </component>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration standards="MySource;PEAR;PSR1;PSR2;Squiz;Zend" tool_path="/usr/local/bin/phpcs" />
+    </phpcs_settings>
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../woocommerce" />
+      <path value="$PROJECT_DIR$/../afterpay-woocommerce-master" />
+      <path value="$PROJECT_DIR$/../woocommerce-gateway-stripe" />
+      <path value="$PROJECT_DIR$/../woocommerce-gateway-paypal-express-checkout" />
+    </include_path>
+  </component>
+</project>
